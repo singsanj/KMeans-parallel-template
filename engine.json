@@ -1,0 +1,19 @@
+{
+  "id": "default",
+  "description": "Default settings",
+  "engineFactory": "com.template.kmeans.KMeansEngine",
+  "datasource": {
+    "params" : {
+      "appId": "4"
+    }
+  },
+"algorithms": [
+    {
+      "name": "algo",
+      "params": {
+        "numberOfCenters" : 2,
+		"numberOfIterations" : 500
+      }
+    }
+  ]
+}
