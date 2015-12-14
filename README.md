@@ -29,7 +29,7 @@ Please refer to http://docs.prediction.io/templates/vanilla/quickstart/
 # How to use it
 
 - clone the repository
-- cd <cloned directory>
+- cd "cloned directory"
 - pio app new MyApp1
 - capture the app access_id and app_id. Keep these handy
 - vi engine.json (provide the captured app_id)
