@@ -25,3 +25,15 @@ Please refer to http://docs.prediction.io/templates/vanilla/quickstart/
 ### v0.1.0
 
 - initial version
+
+# How to use it
+
+- clone the repository
+- cd <cloned directory>
+- pio app new MyApp1
+- capture the app access_id and app_id. Keep these handy
+- vi engine.json (provide the captured app_id)
+- vi scripts/loadData.py (update the access_key)
+- pio build --verbose or pio build
+- pio train
+- pio deploy
